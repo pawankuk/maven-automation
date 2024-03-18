@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2"
+          preserve-order="true"
+          name="C:/Automation/maven-automation/pom.xml">
+        <classes>
+            <class name="org.automation.BaseClass"></class>
+            <class name="org.automation.test2"></class>
+            <class name="org.automation.TestLogin"></class>
+        </classes>
+    </test>
+</suite>
